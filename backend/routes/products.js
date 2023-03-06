@@ -33,8 +33,8 @@ router.post("/", isAdmin, async (req, res) => {
 
 router.get("/", async (req, res) => {
   try {
-    const product = await productModel.find();
-   return res.status(200).send(product);
+    const product = await productModel.find({});
+    res.status(200).send(product);
   } catch (error) {
     console.log(error);
    return res.status(500).send(error);
