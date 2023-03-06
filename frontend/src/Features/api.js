@@ -1,4 +1,4 @@
-export const url = "http://localhost:5000/api";
+export const url = "https://dukanstore.netlify.app/api";
 
 export const setHeadersAdmin = () => {
   const config = {
