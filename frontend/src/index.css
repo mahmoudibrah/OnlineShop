@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&display=swap');
+
+
+
+a {
+  text-decoration: none;
+}
+.bag-quantity {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: yellow;
+  color: black;
+}
+.page-not-found {
+  min-height: 80vh;
+}
+
+.cart-item , .titles  .cart-container {
+  display: grid !important;
+  align-items: center !important;
+  grid-template-columns: 2fr 1fr 1fr 1fr !important;
+  column-gap: 0.5rem;
+}
+
+
+
+/* admin */
+.dashboaed nav {
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+.dashboaed nav a {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.link-active {
+  color: #4b70e2 !important;
+  border-left: 3px solid #4b70e2;
+}
+.link-inactive {
+  color: gray !important;
+}
+
+.imagePreview {
+  max-width: 300px;
+}
+
+.imagePreview img {
+  width: 100%;
+}
