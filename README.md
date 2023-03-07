@@ -6,8 +6,8 @@
 ### 2- npm run start
 
 ## Testing Stripe
-####1-Click your checkout button.
-####2-Fill out the payment details with the test card information:
+#### 1-Click your checkout button.
+#### 2-Fill out the payment details with the test card information:
 #####  a) Enter 4242 4242 4242 4242 as the card number.
 #####  b) Enter any future date for card expiry.
 #####  c) Enter any 3-digit number for CVC.
